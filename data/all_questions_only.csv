@@ -1,0 +1,38 @@
+Survey Response ID,Question ID,Title,Text Template,Is Required,Description,Question Type,Input Type
+18532,3,NPS Question.,How likely is it that you would recommend %{product_name} to a friend or colleague?,True,,nps,slider_nps
+18532,4,Review Title,Title for your review:,True,,title,text_field
+18532,7,Price Level,Price,False,,price,simple_7
+18532,8,love,What do you like best about %{product_name}?,True,,love,comment
+18532,9,hate,What do you dislike about %{product_name}?,True,,hate,comment
+18532,15,Ease of Business,Has %{product_name} been a good partner in doing business?,False,,ease_of_doing_business_with,simple_7
+18532,20,Number of Users Purchased,"How many people use %{product_name} in your organization?
+",False,,users_purchased,dropdown
+18532,22,Length of Contract,What is the term of your contract?,False,How long is the latest contract term you have signed with the vendor?,contract_length,dropdown
+18532,26,Product Direction,Is %{product_name} headed in the right direction?,False,Is %{product_name} keeping up with the latest trends that will help your business?  Do you believe %{product_name}'s leadership has a good vision for the product?,direction,dropdown
+18532,34,Primary Role - Technology,What is your primary role when working with this service provider?,False,,firm_role,dropdown
+67896,10,recommendations,Recommendations to others considering %{product_name}:,False,,recommendations,comment
+177131,35,What is your level of experience with this service provider?,What is your level of experience with %{product_name}?,True,,experience,dropdown
+177131,172,Organization Size,What was your organization size when working with %{product_name}?,True,,company_size,dropdown
+177131,173,Company Segment,Company Segment,False,,company_segment,dropdown
+179859,5,Maintenance,Ease of Admin,False,Is %{product_name} easy to administer?,ease_of_admin,simple_7
+179859,11,Support,Quality of Support,False,Is the support team able to answer your questions or support cases quickly and effectively?,quality_of_support,simple_7
+179859,12,Meets Requirements,Meets Requirements,False,Does %{product_name} meet all of your requirements?,meets_requirements,simple_7
+179859,13,Usability,Ease of Use,True,Is %{product_name} easy to use?,ease_of_use,simple_7
+182325,14,Setup,Ease of Setup,True,Was %{product_name} easy to set up and rollout?,ease_of_setup,simple_7
+183103,17,Primary Role,What is your primary role when using %{product_name}?,True,,product_role,dropdown
+183130,264,For which purposes do you use this product?,For which purposes do you use %{product_name}?,True,,categories,categories
+183130,300,What problems are you solving?,What problems is %{product_name} solving and how is that benefiting you?,True,,benefits,comment
+183130,328,Screen Validation,Confirm that you are a current user of %{product_name} by uploading a screenshot showing you logged into %{product_name}. Screenshots are submitted securely and viewable only to the G2 moderation team.,False,Thanks for leaving a review of %{product_name}! Help us accept your review by uploading a screenshot so we can better assist the G2 moderation team. Screenshots are submitted securely and are only viewable to our G2 moderators.,screenshot,upload
+184048,381,Are you currently using this product?,Are you a current user of %{product_name}?,True,,current_user,dropdown
+188630,18,Time Used,What is your level of experience with %{product_name}?,False,How long have you used %{product_name}? Have you used it at multiple companies?,time_used,dropdown
+302708,29,Professionalism,Professionalism,False,,professionalism,simple_7
+302708,30,Responsiveness,Responsiveness,False,,responsiveness,simple_7
+302708,31,Expertise of Team,Expertise of Team,False,,expertise_of_team,simple_7
+302708,32,Execution Ability,Execution Ability,False,,execution_ability,simple_7
+953874,581,Industry,What is your industry when using this product?,True,,industry,dropdown
+2589127,1334,Business Partner,Are you affiliated with the product you are reviewing or the company that makes it?,True,,business_partner,dropdown
+4166693,19,Go Live Time,How long did it take to go live?,False,How long did it take you to implement %{product_name} from time of purchase to time of first roll-out?,go_live_time,dropdown
+4166693,27,Implementation,How did you implement %{product_name}?,False,"Method of implementation - In House, Vendor Services, 3rd party.",implementation,dropdown
+4166693,74,Deployment,Did you deploy in the cloud?,False,Cloud versions include all hosting methods where hardware and software are not owned by buyer. ,deployment,dropdown
+4166693,77,Timing,When did you implement %{product_name}?,False,What year was the first phase of roll out complete?,implementation_year,dropdown
+4166693,78,Adoption,What percent of your users have fully adopted %{product_name}?,False,Are all the potential users of %{product_name} actively utilizing the system as expected?,adoption,dropdown
