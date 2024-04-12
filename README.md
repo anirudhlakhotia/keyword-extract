@@ -12,4 +12,4 @@ Our project analyzes customer reviews and extract key feature sets that customer
 - **Few-Shot Learning**: Utilizes few-shot learning with a pre-trained large language model (LLM) to identify and categorize product features based on provided prompts.
 - **Deployment**: Deploys the fine-tuned model as a microservice using Docker for easy isolation and deployment.
 - **Category-based Analysis**: Optionally categorizes reviews into predefined categories and performs analysis within each category.
-
+- **Voting Classifier**: Use predictions of Gemma 2B, Zephyr 3B, and Microsoft Phi 2 models, fine-tuned on review data, and assigns categories to input review text based on the majority vote among these models
