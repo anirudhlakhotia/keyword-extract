@@ -22,7 +22,8 @@ Our project analyzes customer reviews and extract key feature sets that customer
     - Assign categories to input review text based on the combined predictions.
 
 ## Architecture Diagram
-![Architecture](https://github.com/anirudhlakhotia/keyword-extract/assets/52605103/85774fb3-79dd-48eb-ba48-8721a73de559)
+
+![Architecture](https://github.com/anirudhlakhotia/keyword-extract/assets/52605103/959d1061-810d-4074-afa5-efbfd29d1d7b)
 
 ## Using Small Language Models for Enhanced Efficiency
 
@@ -33,12 +34,15 @@ In our project, we leverage the capabilities of small language models to enhance
 2. **Efficient Resource Utilization**: We optimize resource utilization in our project. These models require less computational power and memory compared to larger models, allowing us to process larger datasets and perform computations more efficiently.
 
 ## Commands to Run the Project
-
-
+```
+python3 main.py
+```
+You can checkout our fine-tuned model for Gemma 2 on [HuggingFace]([url](https://huggingface.co/AsphyXIA/gemma-g2))
 
 
 ## Useful Links
-
+[Finetune Phi-2 on your own data](https://github.com/brevdev/notebooks/blob/main/phi2-finetune-own-data.ipynb)
+[Finetune Gemma](https://huggingface.co/blog/gemma-peft)
 
 
 ## Team Members
