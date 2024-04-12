@@ -30,11 +30,9 @@ def write_to_csv(data, filename):
         for row in data:
             writer.writerow(row)
 
-# Load JSON data from file
 with open('new4.json', 'r', encoding='utf-8') as json_file:
     json_data = json.load(json_file)
 
-# Extract question data
 extracted_data = extract_question_data(json_data)
 
 # Write extracted data to CSV file

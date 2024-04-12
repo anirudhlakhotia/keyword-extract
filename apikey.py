@@ -1,7 +1,6 @@
 import csv
 import requests
 
-# Function to fetch reviews in batches
 def fetch_reviews(token):
     headers = {
         'Authorization': f'Bearer {token}'
@@ -23,7 +22,6 @@ def fetch_reviews(token):
             break
     return reviews
 
-# Function to save reviews to a CSV file
 def save_to_csv(reviews, filename):
     with open(filename, 'w', newline='', encoding='utf-8') as csvfile:
         fieldnames = reviews[0].keys() if reviews else []
@@ -32,11 +30,8 @@ def save_to_csv(reviews, filename):
         for review in reviews:
             writer.writerow(review)
 
-# Example usage
 if __name__ == "__main__":
-    # Replace 'your_token_here' with the actual secret token provided by G2
     token = '64d916344e608810a8ce23f37a554165efe5a6474b1929572187d0b8c9af33ef'
     reviews = fetch_reviews(token)
-    # Store the collected reviews in a CSV file
     save_to_csv(reviews, 'new3.csv')
     print("Reviews fetched and saved to 'g2_reviewss.csv'")
