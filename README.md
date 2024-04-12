@@ -18,15 +18,13 @@ Our project analyzes customer reviews and extract key feature sets that customer
 
 ## Using Small Language Models for Enhanced Efficiency
 
-In our project, we leverage the capabilities of small language models to enhance efficiency in various aspects of our workflow. These smaller models, such as stabilityai/stablelm-zephyr-3b or microsoft/phi-2, play a crucial role in several key areas:
+In our project, we leverage the capabilities of small language models to enhance efficiency in various aspects of our workflow. These smaller models, such as **stabilityai/stablelm-zephyr-3b** or **microsoft/phi-2**, play a crucial role in several key areas:
 
 1. **Automated Dataset Cleaning**: We utilize small language models to develop a pipeline for automated dataset cleaning. By leveraging these models, we streamline the data cleaning process, improving dataset quality and reliability.
 
-2. **Token Counting and Distribution Analysis**: Small language models enable us to quantify the number of tokens within any given dataset for any given tokenizer. This functionality serves as a fundamental tool for analyzing token distributions and comprehending vocabulary dimensions across datasets, facilitating more informed decision-making in our project workflow.
+2. **Fine-tuning and Transfer Learning**: We leverage small language models for fine-tuning and transfer learning tasks. By starting with a pre-trained small language model and fine-tuning it on our specific domain or task, we can achieve better performance and adaptability.
 
 3. **Efficient Resource Utilization**: We optimize resource utilization in our project. These models require less computational power and memory compared to larger models, allowing us to process larger datasets and perform computations more efficiently.
-
-4. **Fine-tuning and Transfer Learning**: We leverage small language models for fine-tuning and transfer learning tasks. By starting with a pre-trained small language model and fine-tuning it on our specific domain or task, we can achieve better performance and adaptability.
 
 ## Algorithm Overview, How are reviews suggested to customers?
 
