@@ -39,6 +39,9 @@ python3 main.py
 ```
 You can checkout our fine-tuned model for Gemma 2 on [HuggingFace]([url](https://huggingface.co/AsphyXIA/gemma-g2))
 
+## Demo 
+
+Here's a link to our [demo](https://drive.google.com/file/d/16OAigGCjBcld8r2EMPG-cMJNIN3oQd1H/view?usp=sharing)
 
 ## Useful Links
 [Finetune Phi-2 on your own data](https://github.com/brevdev/notebooks/blob/main/phi2-finetune-own-data.ipynb)
